@@ -15,7 +15,7 @@ public class Pais{
 
     public static Pais paisMasVendedor(){
         Pais paisMasVendedor;
-        for (int i = 0; i < listaPaises.size(), i++){
+        for (int i = 0; i < listaPaises.size(); i++){
             if (paisMasVendedor.autosPorPais < listaPaises.get(i).autosPorPais){
                 paisMasVendedor = listaPaises.get(i).autosPorPais;
             }
