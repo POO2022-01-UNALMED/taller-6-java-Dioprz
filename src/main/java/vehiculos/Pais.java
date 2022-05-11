@@ -1,5 +1,7 @@
 package vehiculos;
 
+import java.util.*;
+
 public class Pais{
 
     public static ArrayList<Pais> listaPaises = new ArrayList<Pais>();

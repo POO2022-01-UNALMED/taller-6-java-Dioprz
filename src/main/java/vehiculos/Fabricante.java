@@ -1,5 +1,7 @@
 package vehiculos;
 
+import java.util.*;
+
 public class Fabricante{
 
     public static ArrayList<Fabricante> listaFabricantes = new Arraylist<Fabricante>();
