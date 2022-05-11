@@ -4,13 +4,13 @@ import java.util.*;
 
 public class Fabricante{
 
-    public static ArrayList<Fabricante> listaFabricantes = new Arraylist<Fabricante>();
+    public static ArrayList<Fabricante> listaFabricantes = new Arraylist<>();
     public int autosPorFabricante;
     private String nombre;
     private Pais pais;
 
     public static Fabricante fabricaMayorVentas(){
-        Fabricante fabricaMayorVentas;
+        Fabricante fabricaMayorVentas = new Fabricante("base");
         for (int i = 0; i < listaFabricantes.size(); i++){
             if (fabricaMayorVentas.autosPorFabricante < listaFabricantes.get(i).autosPorFabricante){
                 fabricaMayorVentas = listaFabricantes.get(i);
