@@ -2,14 +2,14 @@ package vehiculos;
 
 public class Vehiculo{
 
-    private String placa;
-    private int puertas;
-    private float velocidadMaxima;
-    private String nombre;
-    private float precio;
-    private float peso;
-    private String traccion;
-    private Fabricante fabricante;
+    protected String placa;
+    protected int puertas;
+    protected float velocidadMaxima;
+    protected String nombre;
+    protected float precio;
+    protected float peso;
+    protected String traccion;
+    protected Fabricante fabricante;
     public static int cantidadVehiculos;
 
     public Vehiculo(){

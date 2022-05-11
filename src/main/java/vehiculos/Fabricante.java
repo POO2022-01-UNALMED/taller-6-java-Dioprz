@@ -13,7 +13,7 @@ public class Fabricante{
         Fabricante fabricaMayorVentas;
         for (int i = 0; i < listaFabricantes.size(); i++){
             if (fabricaMayorVentas.autosPorFabricante < listaFabricantes.get(i).autosPorFabricante){
-                fabricaMayorVentas = listaFabricantes.get(i).autosPorFabricante;
+                fabricaMayorVentas = listaFabricantes.get(i);
             }
         }
         return fabricaMayorVentas;
