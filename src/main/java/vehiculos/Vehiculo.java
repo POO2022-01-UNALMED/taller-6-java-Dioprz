@@ -102,7 +102,7 @@ public class Vehiculo{
     }
 
     public static void setCantidadVehiculos(int cantidad){
-        this.cantidadVehiculos = cantidad;
+        Vehiculo.cantidadVehiculos = cantidad;
     }
 
     public String vehiculosPorTipo(){
