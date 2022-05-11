@@ -97,11 +97,11 @@ public class Vehiculo{
         this.fabricante = fabricante;
     }
 
-    public static getCantidadVehiculos(){
+    public static int getCantidadVehiculos(){
         return Vehiculo.cantidadVehiculos;
     }
 
-    public void setCantidadVehiculos(int cantidad){
+    public static void setCantidadVehiculos(int cantidad){
         this.cantidadVehiculos = cantidad;
     }
 
