@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Fabricante{
 
-    public static ArrayList<Fabricante> listaFabricantes = new Arraylist<>();
+    public static ArrayList<Fabricante> listaFabricantes = new ArrayList<>();
     public int autosPorFabricante;
     private String nombre;
     private Pais pais;
@@ -16,7 +16,7 @@ public class Fabricante{
     }
 
     public static Fabricante fabricaMayorVentas(){
-        Fabricante fabricaMayorVentas = new Fabricante("base", new pais("base"));
+        Fabricante fabricaMayorVentas = new Fabricante("base", new Pais("base"));
         for (int i = 0; i < listaFabricantes.size(); i++){
             if (fabricaMayorVentas.autosPorFabricante < listaFabricantes.get(i).autosPorFabricante){
                 fabricaMayorVentas = listaFabricantes.get(i);
