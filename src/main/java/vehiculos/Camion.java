@@ -8,10 +8,7 @@ public class Camion extends Vehiculo{
     public Camion(String placa, String nombre, float precio, float peso, Fabricante fabricante, int ejes){
         super(placa, 2, 80, nombre, precio, peso, "4X2", fabricante);
         this.ejes = ejes;
-        Vehiculo.cantidadVehiculos++;
         Camion.cantidadCamiones++;
-        fabricante.autosPorFabricante++;
-        fabricante.getPais().autosPorPais++;
     }
 
     public void setEjes(int ejes){
