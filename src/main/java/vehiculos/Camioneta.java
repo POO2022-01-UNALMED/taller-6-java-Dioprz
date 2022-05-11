@@ -7,7 +7,7 @@ public class Camioneta extends Vehiculo{
     private float velocidadMaxima = 90;
     private String traccion = "4X4";
 
-    public Camioneta(boolean volco, String placa, int puertas, String nombre, float precio, float peso, Fabricante fabricante){
+    public Camioneta(String placa, int puertas, String nombre, float precio, float peso, Fabricante fabricante, boolean volco){
         this.volco = volco;
         this.placa = placa;
         this.puertas = puertas;

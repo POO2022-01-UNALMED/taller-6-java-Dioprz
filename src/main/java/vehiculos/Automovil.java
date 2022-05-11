@@ -8,7 +8,7 @@ public class Automovil extends Vehiculo{
     private float velocidadMaxima = 100;
     private String traccion = "FWD";
 
-    public Automovil(int puestos, String placa, String nombre, float precio, float peso, Fabricante fabricante){
+    public Automovil(String placa, String nombre, float precio, float peso, Fabricante fabricante, int puestos,){
         this.puestos = puestos;
         this.placa = placa;
         this.nombre = nombre;
