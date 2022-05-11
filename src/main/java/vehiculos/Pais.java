@@ -6,10 +6,10 @@ public class Pais{
 
     public static ArrayList<Pais> listaPaises = new ArrayList<>();
     public int autosPorPais;
-    private String pais;
+    private String nombre;
 
-    public Pais(String pais){
-        this.pais = pais;
+    public Pais(String nombre){
+        this.nombre = nombre;
         listaPaises.add(this);
     }
 
@@ -23,12 +23,12 @@ public class Pais{
         return paisMasVendedor;
     }
 
-    public void setPais(String pais){
-        this.pais = pais;
+    public void setNombre(String nombre){
+        this.nombre = nombre;
     }
 
-    public String getPais(){
-        return pais;
+    public String getNombre(){
+        return nombre;
     }
 }
 
