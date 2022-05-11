@@ -42,6 +42,9 @@ public class Vehiculo{
         return puertas;
     }
 
+
+
+
     public void setPuertas(int puertas){
         this.puertas = puertas;
     }
@@ -92,6 +95,14 @@ public class Vehiculo{
 
     public void setFabricante(Fabricante fabricante){
         this.fabricante = fabricante;
+    }
+
+    public static getCantidadVehiculos(){
+        return Vehiculo.cantidadVehiculos;
+    }
+
+    public void setCantidadVehiculos(int cantidad){
+        this.cantidadVehiculos = cantidad;
     }
 
     public String vehiculosPorTipo(){
