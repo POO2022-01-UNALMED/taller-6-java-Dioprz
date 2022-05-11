@@ -9,8 +9,14 @@ public class Fabricante{
     private String nombre;
     private Pais pais;
 
+    public Fabricante(String nombre, Pais pais){
+        this.nombre = nombre;
+        this.pais = pais;
+        listaFabricantes.add(this);
+    }
+
     public static Fabricante fabricaMayorVentas(){
-        Fabricante fabricaMayorVentas = new Fabricante("base");
+        Fabricante fabricaMayorVentas = new Fabricante("base", new pais("base"));
         for (int i = 0; i < listaFabricantes.size(); i++){
             if (fabricaMayorVentas.autosPorFabricante < listaFabricantes.get(i).autosPorFabricante){
                 fabricaMayorVentas = listaFabricantes.get(i);
